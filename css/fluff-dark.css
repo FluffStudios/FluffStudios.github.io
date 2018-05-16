@@ -94,6 +94,12 @@ html
     border-radius: 50%;
 }
 
+.imgholder
+{
+    height: 12%;
+    width: 12%;
+}
+
 .bigtext
 {
     font-size: 18pt;
