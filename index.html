@@ -1,47 +1,149 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
 
-        <link rel="stylesheet" type="text/css" href="css/fluff-dark.css">
-        <script src="js/fluff.js"></script>
+  <head>
 
-        <title>Fluff Studios</title>
-    </head>
-    <body>
-        <div class="tab-container centered">
-            <div class="tab-container-tabs">
-                <button class="tab tabactive" onclick="openTab('FluffEngine', this)">Fluff Engine</button>
-                <button class="tab" onclick="openTab('Development', this)">Development</button>
-                <button class="tab" onclick="openTab('TeamMembers', this)">Team Members</button>
-            </div>
-            <div id="FluffEngine" class="tabcontent align-left">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-            </div>
-            <div id="Development" class="tabcontent align-left">
-                <p class="bigtext">No Official Releases</p>
-            </div>
-            <div id="TeamMembers" class="tabcontent align-left">
-                <p class="bigtext">DragonSlayer0531: Programmer</p>
-                <div class="full-block">
-                    <p class="cell mediumtext bio align-justified">
-                        Leads the development of core engine systems in Fluff Engine.  His focus is on the entity component system architecture,
-                        tasks, and multithreading of the engine. He streams the development on <a href="https://twitch.tv/dragonslayer0531">Twitch</a>.  
-                        When not working on Fluff Engine, DragonSlayer0531 is a full time Computer Science student with a focus in Human-Computer 
-                        Interaction.  He enjoys creating Discord and Twitch chat bots, as well as full-stack web development.  
-                        His portfolio can be found <a href="https://nickclark2016.github.io">here</a>.
-                    </p>
-                    <div class="imgholder cell"><img src="res/dsprofile.jpg" alt="ds-profile" class="profile"></div>
-                </div>
-                <hr />
-                <p class="bigtext">GalacticGlum: Programmer</p>
-                <div class="full-block">
-                    <div class="imgholder cell"><img src="res/galacticglum.png" alt="gg-profile" class="profile"></div>
-                    <p class="cell mediumtext bio align-justified">
-                        
-                    </p>
-                </div>
-            </div>
+    <title>Fluff Studios</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/main.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Fluff Engine</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#download">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Community</a>
+            </li>
+          </ul>
         </div>
-    </body>
+      </div>
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="masthead">
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 mx-auto">
+              <h1 class="brand-heading">Make something great</h1>
+              <p class="intro-text">with our state of the art game creation toolkit.</p>
+              <a href="#about" class="btn btn-primary btn-lg js-scroll-trigger">Get Started Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>About Fluff Engine</h2>
+            <p>Fluff Engine is a game engine written in C++ on top of the modern OpenGL pipeline. Access to low level system
+              objects is written in a robust, yet safe way that is beneficial to both novice and professional developers.
+            </p>
+            <p>Our game creation toolkit provides a large set of common tools allowing you to focus on
+              creating your game, not reinventing the wheel.</p>
+            <p>Fluff Engine is completely free and open source.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download-section content-section text-center">
+      <div class="container">
+        <div class="col-lg-8 mx-auto">
+          <h2>Download Fluff Engine</h2>
+          <p>Not yet.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Contact the Developers</h2>
+            <p>blah blah blah</p>
+            <ul class="list-inline banner-social-buttons">
+              <li class="list-inline-item">
+                <a href="https://twitter.com/fluffstudios" class="btn btn-default btn-lg">
+                  <i class="fab fa-twitter fa-fw"></i>
+                  <span class="network-name">Twitter</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/FluffStudios/" class="btn btn-default btn-lg">
+                  <i class="fab fa-github fa-fw"></i>
+                  <span class="network-name">Github</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://discord.com" class="btn btn-default btn-lg">
+                  <i class="fab fa-discord fa-fw"></i>
+                  <span class="network-name">Discord</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container text-center">
+        <p>&copy; 2017-2018 Nicholaus Clark, Shon Verch, and <a href="#">contributors</a></p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/main.js"></script>
+
+  </body>
+
 </html>
