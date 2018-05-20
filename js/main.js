@@ -192,3 +192,7 @@ function init() {
     icon: image
   });
 }
+
+$('.btn').mouseup(function() {
+  this.blur();
+})

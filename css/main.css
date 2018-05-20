@@ -281,3 +281,40 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
+
+.get-started-button {
+  font-size: smaller; 
+
+  padding-top: 1em;
+  padding-bottom: 1em;
+  
+  padding-left: 1em; 
+  padding-right: 1em;
+}
+
+a.btn.download {
+  padding: 0px;
+  border-radius: 0px;
+}
+
+a.btn.download > .main {
+  background-color: white;
+  color: black;
+  display: inline-block;
+  padding: 16px 32px 16px 32px;
+  transition: background-color .1s ease-in-out, color .1s ease-in-out;
+}
+
+a.btn.download > .opt {
+  background-color: #007bff;
+  color: white;
+  display: inline-block;
+  padding: 16px 16px 16px 16px;
+  transition: all 0.15s ease-in-out, color .1s ease-in-out;
+}
+a.btn.download:hover > .opt {
+  background-color: white;
+}
+a.btn.download:hover > * {
+  color: #f96854;
+}
